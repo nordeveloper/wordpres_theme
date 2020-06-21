@@ -1,0 +1,102 @@
+html, body{min-height:100%;}
+h1, .h1, h2, .h2, h3, .h3 {
+    margin-top: 10px;
+}
+#wrapper{
+    width: 100%;
+    max-width: 1920px;
+    min-width: 320px;
+    margin: 0 auto;
+    min-height: 100%;
+    height: auto!important;
+    height: 100%;
+	overflow: hidden;
+}
+#header{min-height:40px;}
+
+#content{padding:0 0 120px;}
+
+#footer{
+    height: 120px;
+    padding-top:10px;
+	background: #ebebeb;
+    border-top: 1px solid #e1dede;	
+}
+
+.head-box{min-height:50px; padding-top:10px;}
+
+.menu-item-has-children .sub-menu{display:none;
+    position: absolute;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+	border: 1px solid #ebebeb;
+	width: 100%;
+	min-width:130px;
+	background:#fff;
+	-webkit-box-shadow: 1px 2px 11px -2px rgba(92,91,92,1);
+	-moz-box-shadow: 1px 2px 11px -2px rgba(92,91,92,1);
+	box-shadow: 1px 2px 11px -2px rgba(92,91,92,1);
+	z-index:999;
+}
+.menu-item-has-children:hover .sub-menu{
+	display:block;
+	border-radius:0;
+}
+
+.sub-menu li{padding:5px 12px;}
+
+.top-nav.navbar{margin-bottom:1px;border-radius:0;}
+
+.content-area{}
+
+.section-title{margin-bottom:20px;}
+
+.post-title{font-size:22px;}
+.post-content{padding-top:10px;margin-bottom:20px;}
+
+.post-image{overflow:hidden; display:block; overflow:hidden;}
+.post-image img{
+	max-width:100%;    
+	height: auto;
+    width: auto;
+}
+
+
+.widget{padding-top:20px;}
+.widget ul{padding:0; margin:0;}
+.widget ul li{
+	display:block; list-style:none;
+    padding: 7px 10px 5px 7px;
+    border-bottom: 1px solid #ccc;
+}
+.widget ul li a{ display: inline-block;}
+
+.page-content{padding-top:10px;}
+.page-content img{max-width:100%;}
+.page-image{margin-bottom:20px;}
+
+.service-item{height:360px; overflow:hidden; margin-bottom:20px;}
+.service-item .post-image{height:260px;}
+
+.portfolios-list{}
+.portfolio-item{}
+.portfolio-item .post-image{display:block; position:relative;}
+.portfolio-item .post-image .image-hover{
+    display: none;
+    background: rgba(22, 22, 22, 0.78);
+    color: #fff;
+    font-size: 20px;
+    position: absolute;
+    height: 100%;
+	padding:15px;
+	text-align:center;
+}
+
+.portfolio-item .post-image h3{margin-top:30%;}
+.portfolio-item .post-image:hover .image-hover{display:block;}
+
+.widget_services_home .widget-title{text-align:center;}
+.widget_services_home .service-item .post-image{
+	height:200px;
+}
